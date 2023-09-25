@@ -2,11 +2,12 @@ package main
 
 import (
 	"github.com/LimJiAn/gin-sqlboiler-exam/api/route"
+	"github.com/LimJiAn/gin-sqlboiler-exam/database"
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
-	// database.ConnectDB()
+	database.ConnectDB()
 }
 
 func main() {
