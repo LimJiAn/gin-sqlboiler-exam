@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/LimJiAn/gin-sqlboiler-exam/database"
-	"github.com/LimJiAn/gin-sqlboiler-exam/models"
+	"github.com/LimJiAn/gin-sqlboiler-example/database"
+	"github.com/LimJiAn/gin-sqlboiler-example/models"
 	"github.com/gin-gonic/gin"
 	"github.com/volatiletech/sqlboiler/v4/boil"
 )

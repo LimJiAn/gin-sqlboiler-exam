@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/LimJiAn/gin-sqlboiler-exam/api/controller"
+	"github.com/LimJiAn/gin-sqlboiler-example/api/controller"
 	"github.com/gin-gonic/gin"
 )
 

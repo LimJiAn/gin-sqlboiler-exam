@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/LimJiAn/gin-sqlboiler-exam/api/route"
-	"github.com/LimJiAn/gin-sqlboiler-exam/database"
+	"github.com/LimJiAn/gin-sqlboiler-example/api/route"
+	"github.com/LimJiAn/gin-sqlboiler-example/database"
 	"github.com/gin-gonic/gin"
 )
 
