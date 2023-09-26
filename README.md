@@ -1,4 +1,4 @@
-# gin-sqlboiler-exam
+# gin-sqlboiler-example
 [![Go](https://img.shields.io/badge/go-1.20-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/dl/)
 
 > #### 🎯 docker-compose, gin, sqlboiler (postgresql) 를 사용한 project example 입니다.
@@ -6,7 +6,7 @@
 
 ## ⚙️ Installation
 ```shell
-$ git clone https://github.com/LimJiAn/gin-sqlboiler-exam
+$ git clone https://github.com/LimJiAn/gin-sqlboiler-example
 ```
 ## 👀 Usage
 #### 1. Run Postgres
@@ -19,8 +19,8 @@ $ docker compose up
 #### 2. Wait 1-2 minutes
 ```console
 [+] Running 2/0
- ✔ Network gin-sqlboiler-exam_default  Created                                                                             0.1s
- ✔ Container postgres                  Created                                                                             0.0s
+ ✔ Network gin-sqlboiler-example_default  Created                                                                             0.1s
+ ✔ Container postgres                     Created                                                                             0.0s
 Attaching to postgres
 postgres  |
 postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
@@ -41,8 +41,8 @@ postgres  | 2023-09-25 09:17:50.770 UTC [1] LOG:  database system is ready to ac
 $ migrate create -ext sql -dir ./migrations -seq create_initial_table
 ```
 ```console
-gin-sqlboiler-exam/migrations/000001_create_initial_table.up.sql
-gin-sqlboiler-exam/migrations/000001_create_initial_table.up.sql
+gin-sqlboiler-example/migrations/000001_create_initial_table.up.sql
+gin-sqlboiler-example/migrations/000001_create_initial_table.up.sql
 ```
 ###### 2. Migrate
 ```bash
